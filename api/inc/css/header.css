@@ -1,0 +1,26 @@
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 25em;
+    background: linear-gradient(319deg, #f50000, #fbc9c9);
+    width: auto;
+}
+
+.hh1 {
+    text-align: center;
+    background: linear-gradient(320deg, #fff700, #0014ff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: "Rubik", Sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-style: italic;
+    line-height: 1em;
+    font-size: clamp(3em, 6vw, 10em);
+}
+.hdiv   {
+    width: 55vw;
+    height: auto;
+    min-width: 15em;
+}

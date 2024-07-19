@@ -1,0 +1,146 @@
+.main   {
+    min-height: 44vw;
+    margin-bottom: 1em;
+}
+.h2main {
+    color: #2B2B2B;
+    font-family: "Rubik", Sans-serif;
+    font-style: italic;
+    line-height: 1em;
+    width: 8em;
+    font-size: clamp(1.5em, 3vw, 10em);
+    margin: 2vw auto 2vw 10vw;
+}
+.h3 {
+    margin-left: 2vw;
+    padding: 1em;
+    font-size: clamp(1em, 2vw, 10em);
+    text-align: center;
+    font-family: "Rubik", Sans-serif;
+}
+#plazamayor, #paseobego, #poniente, #plazarepublica {
+    color: #111111;
+}
+#poniente, #plazarepublica   {
+    background-color: #f2f2f2;
+}
+.php-container {
+    display: none;
+    margin-top: 10px;
+    padding: 10px;
+}
+#textponiente,#textplazamayor,#textplazarepublica,#textpaseobego    {
+    cursor: pointer;
+}
+/* CSS bloques peque */
+.divplazarepublica, .divpaseobego, .divplazamayor, .divponiente {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+.divpaseobego > .bloqueprincipal, .divplazamayor > .bloqueprincipal    {
+    background-color: #f2f2f2;
+    box-shadow: 0 0 10px rgb(0 0 0 / 35%);
+}
+.bloqueprincipal {
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 22vw;
+    min-width: 15em;
+    background-color: white;
+}
+
+.fechabloq {
+    font-size: 1.875rem;
+    text-transform: uppercase;
+    font-weight: 900;
+    margin-bottom: 10px;
+}
+
+.subfechbloq {
+    font-size: 1.125rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.nombrebloq {
+    letter-spacing: 1px;
+    font-weight: 300;
+    font-size: 1.25rem;
+    margin-bottom: 10px;
+    min-height: 2.5em;
+}
+
+.nombrebloqponiente {
+    letter-spacing: 1px;
+    font-weight: 300;
+    font-size: 1.25rem;
+    margin-bottom: 10px;
+    min-height: 2.5em;
+    overflow-y: scroll;
+    height: 1em;
+}
+.textobloq {
+    margin-bottom: 1em;
+    padding: 0.5em 0.8em 0.5em 0.2em;
+    height: 7em;
+    overflow-y: scroll;
+    text-align: right;
+}
+
+#redsocibloq {
+    font-size: 0.875rem;
+    font-style: italic;
+    color: #666;
+}
+ hr    {
+    margin-bottom: 0.5em;
+}
+
+.linearedes {
+    min-width: 15em;
+    display: flex;
+    width: 35%;
+    margin: auto auto 0.1em auto;
+    flex-direction: row;
+    align-items: center;
+}
+
+.imgredes {
+    width: 30%;
+}
+
+.imgredes img {
+    width: 1.3vw;
+    min-width: 2em;
+}
+
+.enlaceredes    {
+    width: 70%;
+    text-align: end;
+}
+
+.enlaceredes a {
+    text-decoration: none;
+    color: #333;
+}
+
+.imgbloq img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+.listplazamayor {
+    text-align: left;
+    list-style-type: disc;
+    margin-left: 1em;
+}
+.listplazamayor > li    {
+    padding-bottom: 0.5em;
+}

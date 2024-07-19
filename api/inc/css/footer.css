@@ -1,0 +1,24 @@
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /*height: 15vw;*/
+    background: linear-gradient(319deg, #fbc9c9, #f50000);
+    color: white;
+    text-align: center;
+    min-height: 10em;
+}
+.pfooter    {
+    color: #FFFFFF;
+    font-family: "Rubik", Sans-serif;
+    font-weight: 800;
+    text-transform: uppercase;
+    font-style: italic;
+    line-height: 1em;
+    font-size: clamp(1em, 3.5vw, 20em);
+}
+.divpfooter {
+    width: 60vw;
+    text-align: center;
+    min-width: 15em;
+}
